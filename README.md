@@ -55,9 +55,14 @@ Clone the repository and run `cargo build --release` to compile the application.
 
 The application generates a formatted table displaying the following information for each PR:
 
-- PR number
-- Last updated date and time
-- Title
-- URL
-- Author
-- Number of additions and deletions (e.g., "+5/-3")
+Like this:
+
+```
++------+------------------+------------------------------------+----------------------------------------+-----------+-----+
+| PR # |  Last Updated    |               Title                |                   URL                  |  Author   | +/- |
++------+------------------+------------------------------------+----------------------------------------+-----------+-----+
+| 42   | 2023-04-20 18:30 | Update README.md                   | https://github.com/user/repo/pull/42   | @user1    |+5/-3|
+| 39   | 2023-04-18 15:45 | Fix issue #123                     | https://github.com/user/repo/pull/39   | @user2    |+3/-1|
+| 36   | 2023-04-17 12:15 | Add new feature                    | https://github.com/user/repo/pull/36   | @user3    |+8/-2|
++------+------------------+------------------------------------+----------------------------------------+-----------+-----+
+```
