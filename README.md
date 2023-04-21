@@ -1,4 +1,4 @@
-# README.md
+# gh-pr-cli - A silly tool to tell you which PR's you need to review.
 
 ## Overview
 
@@ -47,7 +47,7 @@ Clone the repository and run `cargo build --release` to compile the application.
 
 ## Options
 
-- `--last N`: Display the last N PRs. Default is 30.
+- `--last N`: Display the last N PRs. Default is 50.
 - `--repo OWNER/REPOSITORY`: Specify the repository to fetch PRs from. If only the repository name is provided, the application will use the current user's login as the owner. Default is the current user's repositories.
 - `--state open|closed|all`: Fetch PRs with the specified state. Default is "open".
 
